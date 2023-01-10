@@ -1,5 +1,5 @@
 <mujoco model="go1_description">
-    <compiler angle="radian" meshdir="../meshes/" />
+    <compiler angle="radian" meshdir="go1-meshes/" />
     <size njmax="500" nconmax="100" />
     <option gravity='0 0 -9.806' iterations='50' solver='Newton' timestep='0.002'/>
 

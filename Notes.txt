@@ -1,0 +1,1 @@
+go1.xml used from unitree_mujoco repo.

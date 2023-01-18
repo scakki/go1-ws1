@@ -48,6 +48,12 @@ const TaskDefinition kTasksArray[]{
         .transition = &Swimmer::Transition,
     },
     {
+        .name = "Go1 Flat",
+        .xml_path = "quadruped-go1/task_flat1.xml",
+        .residual = &Quadruped::Residual,
+        .transition = &Quadruped::Transition,
+    },
+    {
         .name = "Walker",
         .xml_path = "walker/task.xml",
         .residual = &Walker::Residual,

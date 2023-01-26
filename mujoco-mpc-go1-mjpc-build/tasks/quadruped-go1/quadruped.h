@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef MJPC_TASKS_QUADRUPED_QUADRUPED_H_
-#define MJPC_TASKS_QUADRUPED_QUADRUPED_H_
+#ifndef MJPC_TASKS_QUADRUPED_GO1_QUADRUPED_H_
+#define MJPC_TASKS_QUADRUPED_GO1_QUADRUPED_H_
 
 #include <mujoco/mujoco.h>
 
 namespace mjpc {
-struct Quadruped {
+struct QuadrupedGo1 {
 // --------------------- Residuals for quadruped task --------------------
 //   Number of residuals: 4
 //     Residual (0): position_z - average(foot position)_z - height_goal
@@ -42,4 +42,4 @@ static int Transition(int state, const mjModel* model, mjData* data);
 };
 }  // namespace mjpc
 
-#endif  // MJPC_TASKS_QUADRUPED_QUADRUPED_H_
+#endif  // MJPC_TASKS_QUADRUPED_GO1_QUADRUPED_H_

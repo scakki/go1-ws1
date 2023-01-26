@@ -32,6 +32,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/humanoid/humanoid.cc" "CMakeFiles/libmjpc.dir/tasks/humanoid/humanoid.cc.o" "gcc" "CMakeFiles/libmjpc.dir/tasks/humanoid/humanoid.cc.o.d"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/particle/particle.cc" "CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.o" "gcc" "CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.o.d"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadrotor/quadrotor.cc" "CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o" "gcc" "CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.cc" "CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o" "gcc" "CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o.d"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped/quadruped.cc" "CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o" "gcc" "CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o.d"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.cc" "CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o" "gcc" "CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o.d"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/tasks.cc" "CMakeFiles/libmjpc.dir/tasks/tasks.cc.o" "gcc" "CMakeFiles/libmjpc.dir/tasks/tasks.cc.o.d"

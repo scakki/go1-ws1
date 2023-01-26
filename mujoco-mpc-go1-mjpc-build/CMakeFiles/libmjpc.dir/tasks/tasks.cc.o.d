@@ -135,5 +135,6 @@ CMakeFiles/libmjpc.dir/tasks/tasks.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/particle/particle.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadrotor/quadrotor.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped/quadruped.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/walker/walker.h

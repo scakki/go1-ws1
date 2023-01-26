@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "tasks/quadruped/quadruped.h"
+#include "tasks/quadruped-go1/quadruped.h"
 
 #include <mujoco/mujoco.h>
 #include "utilities.h"
@@ -28,7 +28,7 @@ namespace mjpc {
 //   Number of parameters: 1
 //     Parameter (1): height_goal
 // -----------------------------------------------------------------------
-void Quadruped::Residual(const double* parameters, const mjModel* model,
+void QuadrupedGo1::Residual(const double* parameters, const mjModel* model,
                          const mjData* data, double* residual) {
   // ---------- Residual (0) ----------
   // standing height goal
@@ -77,7 +77,7 @@ void Quadruped::Residual(const double* parameters, const mjModel* model,
 //   If quadruped is within tolerance of goal ->
 //   set goal to next from keyframes.
 // -----------------------------------------------
-int Quadruped::Transition(int state, const mjModel* model, mjData* data) {
+int QuadrupedGo1::Transition(int state, const mjModel* model, mjData* data) {
   int new_state = state;
 
   // ---------- Compute tolerance ----------
@@ -119,7 +119,7 @@ int Quadruped::Transition(int state, const mjModel* model, mjData* data) {
   return new_state;
 }
 
-void Quadruped::ResidualFloor(const double* parameters, const mjModel* model,
+void QuadrupedGo1::ResidualFloor(const double* parameters, const mjModel* model,
                               const mjData* data, double* residual) {
   int counter = 0;
   // ---------- Upright ----------

@@ -1,4 +1,4 @@
-<mujoco model="Quadruped">
+<mujoco model="Quadruped-Go1">
   <include file="../common.xml"/>
 
   <size memory="1M"/>
@@ -29,7 +29,7 @@
     <geom name="floor" size="50 50 0.05" pos="0 0 -0.01" type="plane" material="blue_grid"/>
   </worldbody>
 
-  <include file="a1.xml" />
+  <include file="go1.xml" />
 
   <sensor>
     <user name="Upright" dim="3" user="0 3 0 10" />

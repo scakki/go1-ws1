@@ -71,6 +71,11 @@
 },
 {
   "directory": "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build",
+  "command": "/usr/bin/c++ -DmjUSEPLATFORMSIMD -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/_deps/abseil-cpp-src -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/_deps/mujoco-src/include -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mavx -Wno-int-in-bool-context -Wno-maybe-uninitialized -Wno-sign-compare -Wno-stringop-overflow -Wno-stringop-truncation -std=c++20 -o CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.cc",
+  "file": "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.cc"
+},
+{
+  "directory": "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build",
   "command": "/usr/bin/c++ -DmjUSEPLATFORMSIMD -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/_deps/abseil-cpp-src -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/_deps/mujoco-src/include -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -mavx -Wno-int-in-bool-context -Wno-maybe-uninitialized -Wno-sign-compare -Wno-stringop-overflow -Wno-stringop-truncation -std=c++20 -o CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.cc",
   "file": "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.cc"
 },

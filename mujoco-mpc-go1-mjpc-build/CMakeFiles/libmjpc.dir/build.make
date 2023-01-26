@@ -251,10 +251,24 @@ CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped/quadruped.cc -o CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.s
 
+CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o: CMakeFiles/libmjpc.dir/flags.make
+CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.cc
+CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o -MF CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o.d -o CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.cc
+
+CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.cc > CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.i
+
+CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/quadruped-go1/quadruped-go1.cc -o CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.s
+
 CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.cc
 CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o -MF CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o.d -o CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.cc
 
 CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/walker/walker.cc
 CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o -MF CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o.d -o CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/walker/walker.cc
 
 CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/planner.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/planner.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/planner.cc
 CMakeFiles/libmjpc.dir/planners/planner.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/libmjpc.dir/planners/planner.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/libmjpc.dir/planners/planner.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/planner.cc.o -MF CMakeFiles/libmjpc.dir/planners/planner.cc.o.d -o CMakeFiles/libmjpc.dir/planners/planner.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/planner.cc
 
 CMakeFiles/libmjpc.dir/planners/planner.cc.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/libmjpc.dir/planners/planner.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/include.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/include.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/include.cc
 CMakeFiles/libmjpc.dir/planners/include.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/libmjpc.dir/planners/include.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/libmjpc.dir/planners/include.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/include.cc.o -MF CMakeFiles/libmjpc.dir/planners/include.cc.o.d -o CMakeFiles/libmjpc.dir/planners/include.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/include.cc
 
 CMakeFiles/libmjpc.dir/planners/include.cc.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/libmjpc.dir/planners/include.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/cost_derivatives.cc
 CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o -MF CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o.d -o CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/cost_derivatives.cc
 
 CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/libmjpc.dir/planners/cost_derivatives.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/model_derivatives.cc
 CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o -MF CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o.d -o CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/model_derivatives.cc
 
 CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/libmjpc.dir/planners/model_derivatives.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/planner.cc
 CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o -MF CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o.d -o CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/planner.cc
 
 CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/policy.cc
 CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o -MF CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o.d -o CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/policy.cc
 
 CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/gradient.cc
 CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o -MF CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o.d -o CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/gradient.cc
 
 CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/libmjpc.dir/planners/gradient/gradient.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/planner.cc
 CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o -MF CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o.d -o CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/planner.cc
 
 CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/libmjpc.dir/planners/gradient/planner.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/policy.cc
 CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o -MF CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o.d -o CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/policy.cc
 
 CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/libmjpc.dir/planners/gradient/policy.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/spline_mapping.cc
 CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o -MF CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o.d -o CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/gradient/spline_mapping.cc
 
 CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.i: cmake_force
@@ -422,7 +436,7 @@ CMakeFiles/libmjpc.dir/planners/gradient/spline_mapping.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/ilqg/backward_pass.cc
 CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o -MF CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o.d -o CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/ilqg/backward_pass.cc
 
 CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/libmjpc.dir/planners/ilqg/backward_pass.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/ilqg/planner.cc
 CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o -MF CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o.d -o CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/ilqg/planner.cc
 
 CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/libmjpc.dir/planners/ilqg/planner.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/ilqg/policy.cc
 CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o -MF CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o.d -o CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/ilqg/policy.cc
 
 CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/libmjpc.dir/planners/ilqg/policy.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/norm.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/norm.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/norm.cc
 CMakeFiles/libmjpc.dir/norm.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/libmjpc.dir/norm.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/libmjpc.dir/norm.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/norm.cc.o -MF CMakeFiles/libmjpc.dir/norm.cc.o.d -o CMakeFiles/libmjpc.dir/norm.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/norm.cc
 
 CMakeFiles/libmjpc.dir/norm.cc.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/libmjpc.dir/norm.cc.s: cmake_force
 CMakeFiles/libmjpc.dir/task.cc.o: CMakeFiles/libmjpc.dir/flags.make
 CMakeFiles/libmjpc.dir/task.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.cc
 CMakeFiles/libmjpc.dir/task.cc.o: CMakeFiles/libmjpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/libmjpc.dir/task.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/libmjpc.dir/task.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libmjpc.dir/task.cc.o -MF CMakeFiles/libmjpc.dir/task.cc.o.d -o CMakeFiles/libmjpc.dir/task.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.cc
 
 CMakeFiles/libmjpc.dir/task.cc.i: cmake_force
@@ -504,6 +518,7 @@ libmjpc_OBJECTS = \
 "CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.o" \
 "CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o" \
 "CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o" \
+"CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o" \
 "CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o" \
 "CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o" \
 "CMakeFiles/libmjpc.dir/planners/planner.cc.o" \
@@ -538,6 +553,7 @@ lib/libmjpc.a: CMakeFiles/libmjpc.dir/tasks/humanoid/humanoid.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o
+lib/libmjpc.a: CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/tasks/walker/walker.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/planners/planner.cc.o
@@ -557,7 +573,7 @@ lib/libmjpc.a: CMakeFiles/libmjpc.dir/norm.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/task.cc.o
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/build.make
 lib/libmjpc.a: CMakeFiles/libmjpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX static library lib/libmjpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-go1-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library lib/libmjpc.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/libmjpc.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmjpc.dir/link.txt --verbose=$(VERBOSE)
 

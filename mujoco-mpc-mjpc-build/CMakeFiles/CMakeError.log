@@ -1,0 +1,19 @@
+Performing C SOURCE FILE Test SUPPORTS_LLD failed with the following output:
+Change Dir: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6340/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6340.dir/build.make CMakeFiles/cmTC_e6340.dir/build
+gmake[1]: Entering directory '/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6340.dir/src.c.o
+/usr/bin/cc -DSUPPORTS_LLD  -fuse-ld=lld -fPIE -std=c11 -o CMakeFiles/cmTC_e6340.dir/src.c.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e6340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6340.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=lld CMakeFiles/cmTC_e6340.dir/src.c.o -o cmTC_e6340 
+collect2: fatal error: cannot find ‘ld’
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e6340.dir/build.make:99: cmTC_e6340] Error 1
+gmake[1]: Leaving directory '/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e6340/fast] Error 2
+
+
+Source file was:
+int main() {}

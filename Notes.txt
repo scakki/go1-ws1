@@ -1,0 +1,11 @@
+go1.xml used from unitree_mujoco repo.
+
+
+mkdir build
+cd build
+cmake -S ../ -B .
+
+chmod +x main.cc
+
+gcc -o x quadruped.cc
+

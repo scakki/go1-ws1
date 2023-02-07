@@ -66,6 +66,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0 0 0 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
+                        <site name="FR" pos="0 0 -0.2" type="sphere" size=".03"/>
                     </body>
                 </body>
             </body>
@@ -88,7 +89,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0.913725 0.913725 0.847059 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
-                        <site name="FL" pos="0 0 -0.2" type="sphere" size=".015"/>
+                        <site name="FL" pos="0 0 -0.2" type="sphere" size=".03"/>
                     </body>
                 </body>
             </body>
@@ -112,6 +113,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0 0 0 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
+                        <site name="RR" pos="0 0 -0.2" type="sphere" size=".03"/>
                     </body>
                 </body>
             </body>
@@ -135,6 +137,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0 0 0 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
+                        <site name="RL" pos="0 0 -0.2" type="sphere" size=".03"/>
                     </body>
                 </body>
             </body>
@@ -156,42 +159,42 @@
         <motor name="RL_calf"      gear="1" joint="RL_calf_joint"/>
     </actuator>
 
-    <sensor>
+    <!sensor>
 
-        <jointpos name="FR_hip_pos"     joint="FR_hip_joint"/>
-        <jointpos name="FR_thigh_pos"   joint="FR_thigh_joint"/>
-        <jointpos name="FR_calf_pos"    joint="FR_calf_joint"/>
-        <jointpos name="FL_hip_pos"     joint="FL_hip_joint"/>
-        <jointpos name="FL_thigh_pos"   joint="FL_thigh_joint"/>
-        <jointpos name="FL_calf_pos"    joint="FL_calf_joint"/>
-        <jointpos name="RR_hip_pos"     joint="RR_hip_joint"/>
-        <jointpos name="RR_thigh_pos"   joint="RR_thigh_joint"/>
-        <jointpos name="RR_calf_pos"    joint="RR_calf_joint" />
-        <jointpos name="RL_hip_pos"     joint="RL_hip_joint"/>
-        <jointpos name="RL_thigh_pos"   joint="RL_thigh_joint"/>
-        <jointpos name="RL_calf_pos"    joint="RL_calf_joint"/>
+        <!jointpos name="FR_hip_pos"     joint="FR_hip_joint"/>
+        <!jointpos name="FR_thigh_pos"   joint="FR_thigh_joint"/>
+        <!jointpos name="FR_calf_pos"    joint="FR_calf_joint"/>
+        <!jointpos name="FL_hip_pos"     joint="FL_hip_joint"/>
+        <!jointpos name="FL_thigh_pos"   joint="FL_thigh_joint"/>
+        <!jointpos name="FL_calf_pos"    joint="FL_calf_joint"/>
+        <!jointpos name="RR_hip_pos"     joint="RR_hip_joint"/>
+        <!jointpos name="RR_thigh_pos"   joint="RR_thigh_joint"/>
+        <!jointpos name="RR_calf_pos"    joint="RR_calf_joint" />
+        <!jointpos name="RL_hip_pos"     joint="RL_hip_joint"/>
+        <!jointpos name="RL_thigh_pos"   joint="RL_thigh_joint"/>
+        <!jointpos name="RL_calf_pos"    joint="RL_calf_joint"/>
 
-        <jointvel name="FR_hip_vel"     joint="FR_hip_joint"/>
-        <jointvel name="FR_thigh_vel"   joint="FR_thigh_joint"/>
-        <jointvel name="FR_calf_vel"    joint="FR_calf_joint"/>
-        <jointvel name="FL_hip_vel"     joint="FL_hip_joint"/>
-        <jointvel name="FL_thigh_vel"   joint="FL_thigh_joint"/>
-        <jointvel name="FL_calf_vel"    joint="FL_calf_joint"/>
-        <jointvel name="RR_hip_vel"     joint="RR_hip_joint"/>
-        <jointvel name="RR_thigh_vel"   joint="RR_thigh_joint"/>
-        <jointvel name="RR_calf_vel"    joint="RR_calf_joint" />
-        <jointvel name="RL_hip_vel"     joint="RL_hip_joint"/>
-        <jointvel name="RL_thigh_vel"   joint="RL_thigh_joint"/>
-        <jointvel name="RL_calf_vel"    joint="RL_calf_joint"/>
+        <!jointvel name="FR_hip_vel"     joint="FR_hip_joint"/>
+        <!jointvel name="FR_thigh_vel"   joint="FR_thigh_joint"/>
+        <!jointvel name="FR_calf_vel"    joint="FR_calf_joint"/>
+        <!jointvel name="FL_hip_vel"     joint="FL_hip_joint"/>
+        <!jointvel name="FL_thigh_vel"   joint="FL_thigh_joint"/>
+        <!jointvel name="FL_calf_vel"    joint="FL_calf_joint"/>
+        <!jointvel name="RR_hip_vel"     joint="RR_hip_joint"/>
+        <!jointvel name="RR_thigh_vel"   joint="RR_thigh_joint"/>
+        <!jointvel name="RR_calf_vel"    joint="RR_calf_joint" />
+        <!jointvel name="RL_hip_vel"     joint="RL_hip_joint"/>
+        <!jointvel name="RL_thigh_vel"   joint="RL_thigh_joint"/>
+        <!jointvel name="RL_calf_vel"    joint="RL_calf_joint"/>
 
-        <accelerometer name="Body_Acc" site="imu"/>
+        <!accelerometer name="Body_Acc" site="imu"/>
 
-        <gyro name="Body_Gyro" site="imu"/>
+        <!gyro name="Body_Gyro" site="imu"/>
 
-        <framepos name="Body_Pos" objtype="site" objname="imu"/>
+        <!framepos name="Body_Pos" objtype="site" objname="imu"/>
 
-        <framequat name="Body_Quat" objtype="site" objname="imu"/>
+        <!framequat name="Body_Quat" objtype="site" objname="imu"/>
         
     
-    </sensor>
+    <!/sensor>
 </mujoco>

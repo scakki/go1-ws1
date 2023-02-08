@@ -1,0 +1,44 @@
+Mon Jan 30 14:32:47 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Mon Jan 30 14:35:11 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Mon Jan 30 16:56:40 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Wed Feb  1 18:00:44 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Mon Feb  6 12:30:24 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Mon Feb  6 12:35:07 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Mon Feb  6 12:36:14 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Mon Feb  6 12:37:15 2023
+ERROR: Cost construction from XML: User sensors specifying residuals must be specified first and sequentially
+
+
+Mon Feb  6 13:03:13 2023
+ERROR: mismatch between total user-sensor dimension and actual length of residual 19
+
+Mon Feb  6 13:03:13 2023
+ERROR: mismatch between total user-sensor dimension and actual length of residual 19
+
+Mon Feb  6 13:03:50 2023
+ERROR: mismatch between total user-sensor dimension and actual length of residual 19
+
+Mon Feb  6 13:03:50 2023
+ERROR: mismatch between total user-sensor dimension and actual length of residual 19
+

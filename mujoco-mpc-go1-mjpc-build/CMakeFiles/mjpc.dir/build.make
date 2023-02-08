@@ -146,7 +146,7 @@ bin/mjpc: lib/libabsl_strings.a
 bin/mjpc: lib/libglfw3.a
 bin/mjpc: lib/libmjpc.a
 bin/mjpc: lib/liblodepng.a
-bin/mjpc: lib/libmujoco.so.2.3.1
+bin/mjpc: lib/libmujoco.so.2.3.2
 bin/mjpc: lib/libthreadpool.a
 bin/mjpc: lib/libabsl_flags_usage.a
 bin/mjpc: lib/libabsl_flags_usage_internal.a

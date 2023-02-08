@@ -12,7 +12,7 @@
         <joint damping="0.01" armature="0.01" frictionloss="0.2" />
     
     </default>
-=
+
     <asset>
         <mesh name="trunk" file="trunk.stl" />
         <mesh name="hip" file="hip.stl" />

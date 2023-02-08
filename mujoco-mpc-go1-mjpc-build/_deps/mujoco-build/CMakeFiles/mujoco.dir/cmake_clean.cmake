@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../../lib/libmujoco.pdb"
   "../../lib/libmujoco.so"
-  "../../lib/libmujoco.so.2.3.1"
+  "../../lib/libmujoco.so.2.3.2"
   "CMakeFiles/mujoco.dir/src/engine/engine_callback.c.o"
   "CMakeFiles/mujoco.dir/src/engine/engine_callback.c.o.d"
   "CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o"

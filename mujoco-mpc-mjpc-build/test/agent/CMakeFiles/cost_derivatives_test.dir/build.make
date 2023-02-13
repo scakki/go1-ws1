@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -70,18 +70,18 @@ include test/agent/CMakeFiles/cost_derivatives_test.dir/progress.make
 include test/agent/CMakeFiles/cost_derivatives_test.dir/flags.make
 
 test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o: test/agent/CMakeFiles/cost_derivatives_test.dir/flags.make
-test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent/cost_derivatives_test.cc
+test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent/cost_derivatives_test.cc
 test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o: test/agent/CMakeFiles/cost_derivatives_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o -MF CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o.d -o CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent/cost_derivatives_test.cc
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o -MF CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o.d -o CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent/cost_derivatives_test.cc
 
 test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.i"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent/cost_derivatives_test.cc > CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.i
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent/cost_derivatives_test.cc > CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.i
 
 test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.s"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent/cost_derivatives_test.cc -o CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.s
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent/cost_derivatives_test.cc -o CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.s
 
 # Object files for target cost_derivatives_test
 cost_derivatives_test_OBJECTS = \
@@ -116,7 +116,7 @@ bin/cost_derivatives_test: lib/libabsl_base.a
 bin/cost_derivatives_test: lib/libabsl_raw_logging_internal.a
 bin/cost_derivatives_test: lib/libabsl_log_severity.a
 bin/cost_derivatives_test: lib/libabsl_spinlock_wait.a
-bin/cost_derivatives_test: lib/libmujoco.so.2.3.1
+bin/cost_derivatives_test: lib/libmujoco.so.2.3.2
 bin/cost_derivatives_test: lib/libgtest.a
 bin/cost_derivatives_test: test/agent/CMakeFiles/cost_derivatives_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/cost_derivatives_test"
@@ -131,6 +131,6 @@ test/agent/CMakeFiles/cost_derivatives_test.dir/clean:
 .PHONY : test/agent/CMakeFiles/cost_derivatives_test.dir/clean
 
 test/agent/CMakeFiles/cost_derivatives_test.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent/CMakeFiles/cost_derivatives_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/agent/CMakeFiles/cost_derivatives_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/agent/CMakeFiles/cost_derivatives_test.dir/depend
 

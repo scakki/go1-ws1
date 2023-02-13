@@ -1,7 +1,7 @@
 CMakeFiles/mjpc.dir/simulate.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -241,7 +241,7 @@ CMakeFiles/mjpc.dir/simulate.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjvisualize.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjrender.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjui.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/agent.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/agent.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -256,13 +256,13 @@ CMakeFiles/mjpc.dir/simulate.cc.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/include.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/planner.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/states/state.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/include.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/planner.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/states/state.h \
  /usr/include/c++/11/shared_mutex \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/norm.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/threadpool.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/norm.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/threadpool.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
@@ -278,14 +278,13 @@ CMakeFiles/mjpc.dir/simulate.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/config.h \
  /usr/include/c++/11/cstddef \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/options.h \
- /usr/include/c++/11/ciso646 \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/policy_checks.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/trajectory.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/utilities.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/trajectory.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/utilities.h \
  /usr/include/c++/11/optional \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/states/include.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/states/state.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/states/include.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/states/state.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
  /usr/include/c++/11/bits/ranges_util.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
@@ -294,8 +293,8 @@ CMakeFiles/mjpc.dir/simulate.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/lodepng-src/lodepng.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjxmacro.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/glfw_dispatch.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/uitools.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/array_safety.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/glfw_dispatch.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/uitools.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/array_safety.h \
  /usr/include/c++/11/cstdarg \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/utilities.h
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/utilities.h

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent/threadpool_test.cc" "test/agent/CMakeFiles/threadpool_test.dir/threadpool_test.cc.o" "gcc" "test/agent/CMakeFiles/threadpool_test.dir/threadpool_test.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent/threadpool_test.cc" "test/agent/CMakeFiles/threadpool_test.dir/threadpool_test.cc.o" "gcc" "test/agent/CMakeFiles/threadpool_test.dir/threadpool_test.cc.o.d"
   )
 
 # Targets to which this target links.

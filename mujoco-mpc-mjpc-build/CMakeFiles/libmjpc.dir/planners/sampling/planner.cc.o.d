@@ -1,7 +1,7 @@
 CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/sampling/planner.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/planner.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/sampling/planner.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/planner.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -211,11 +211,11 @@ CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjvisualize.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjrender.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjui.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/planner.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/states/state.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/norm.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/threadpool.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/planner.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/states/state.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/norm.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/threadpool.h \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/unique_lock.h \
  /usr/include/c++/11/bits/shared_ptr.h \
@@ -263,11 +263,10 @@ CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/config.h \
  /usr/include/c++/11/cstddef \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/options.h \
- /usr/include/c++/11/ciso646 \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/policy_checks.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/trajectory.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/utilities.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/trajectory.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/utilities.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -279,7 +278,7 @@ CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/optional \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/sampling/policy.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/policy.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/distributions.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
  /usr/include/c++/11/bits/ranges_util.h \
@@ -357,6 +356,6 @@ CMakeFiles/libmjpc.dir/planners/sampling/planner.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/internal/randen_traits.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/seed_sequences.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/seed_gen_exception.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/policy.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/array_safety.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/policy.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/array_safety.h \
  /usr/include/c++/11/cstdarg

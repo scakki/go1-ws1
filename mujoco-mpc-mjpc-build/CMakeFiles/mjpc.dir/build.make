@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -70,60 +70,60 @@ include CMakeFiles/mjpc.dir/progress.make
 include CMakeFiles/mjpc.dir/flags.make
 
 CMakeFiles/mjpc.dir/glfw_dispatch.cc.o: CMakeFiles/mjpc.dir/flags.make
-CMakeFiles/mjpc.dir/glfw_dispatch.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/glfw_dispatch.cc
+CMakeFiles/mjpc.dir/glfw_dispatch.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/glfw_dispatch.cc
 CMakeFiles/mjpc.dir/glfw_dispatch.cc.o: CMakeFiles/mjpc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mjpc.dir/glfw_dispatch.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/glfw_dispatch.cc.o -MF CMakeFiles/mjpc.dir/glfw_dispatch.cc.o.d -o CMakeFiles/mjpc.dir/glfw_dispatch.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/glfw_dispatch.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/glfw_dispatch.cc.o -MF CMakeFiles/mjpc.dir/glfw_dispatch.cc.o.d -o CMakeFiles/mjpc.dir/glfw_dispatch.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/glfw_dispatch.cc
 
 CMakeFiles/mjpc.dir/glfw_dispatch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mjpc.dir/glfw_dispatch.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/glfw_dispatch.cc > CMakeFiles/mjpc.dir/glfw_dispatch.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/glfw_dispatch.cc > CMakeFiles/mjpc.dir/glfw_dispatch.cc.i
 
 CMakeFiles/mjpc.dir/glfw_dispatch.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mjpc.dir/glfw_dispatch.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/glfw_dispatch.cc -o CMakeFiles/mjpc.dir/glfw_dispatch.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/glfw_dispatch.cc -o CMakeFiles/mjpc.dir/glfw_dispatch.cc.s
 
 CMakeFiles/mjpc.dir/main.cc.o: CMakeFiles/mjpc.dir/flags.make
-CMakeFiles/mjpc.dir/main.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/main.cc
+CMakeFiles/mjpc.dir/main.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/main.cc
 CMakeFiles/mjpc.dir/main.cc.o: CMakeFiles/mjpc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mjpc.dir/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/main.cc.o -MF CMakeFiles/mjpc.dir/main.cc.o.d -o CMakeFiles/mjpc.dir/main.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/main.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/main.cc.o -MF CMakeFiles/mjpc.dir/main.cc.o.d -o CMakeFiles/mjpc.dir/main.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/main.cc
 
 CMakeFiles/mjpc.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mjpc.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/main.cc > CMakeFiles/mjpc.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/main.cc > CMakeFiles/mjpc.dir/main.cc.i
 
 CMakeFiles/mjpc.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mjpc.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/main.cc -o CMakeFiles/mjpc.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/main.cc -o CMakeFiles/mjpc.dir/main.cc.s
 
 CMakeFiles/mjpc.dir/simulate.cc.o: CMakeFiles/mjpc.dir/flags.make
-CMakeFiles/mjpc.dir/simulate.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.cc
+CMakeFiles/mjpc.dir/simulate.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.cc
 CMakeFiles/mjpc.dir/simulate.cc.o: CMakeFiles/mjpc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mjpc.dir/simulate.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/simulate.cc.o -MF CMakeFiles/mjpc.dir/simulate.cc.o.d -o CMakeFiles/mjpc.dir/simulate.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/simulate.cc.o -MF CMakeFiles/mjpc.dir/simulate.cc.o.d -o CMakeFiles/mjpc.dir/simulate.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.cc
 
 CMakeFiles/mjpc.dir/simulate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mjpc.dir/simulate.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.cc > CMakeFiles/mjpc.dir/simulate.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.cc > CMakeFiles/mjpc.dir/simulate.cc.i
 
 CMakeFiles/mjpc.dir/simulate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mjpc.dir/simulate.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.cc -o CMakeFiles/mjpc.dir/simulate.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.cc -o CMakeFiles/mjpc.dir/simulate.cc.s
 
 CMakeFiles/mjpc.dir/uitools.cc.o: CMakeFiles/mjpc.dir/flags.make
-CMakeFiles/mjpc.dir/uitools.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/uitools.cc
+CMakeFiles/mjpc.dir/uitools.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/uitools.cc
 CMakeFiles/mjpc.dir/uitools.cc.o: CMakeFiles/mjpc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mjpc.dir/uitools.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/uitools.cc.o -MF CMakeFiles/mjpc.dir/uitools.cc.o.d -o CMakeFiles/mjpc.dir/uitools.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/uitools.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mjpc.dir/uitools.cc.o -MF CMakeFiles/mjpc.dir/uitools.cc.o.d -o CMakeFiles/mjpc.dir/uitools.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/uitools.cc
 
 CMakeFiles/mjpc.dir/uitools.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mjpc.dir/uitools.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/uitools.cc > CMakeFiles/mjpc.dir/uitools.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/uitools.cc > CMakeFiles/mjpc.dir/uitools.cc.i
 
 CMakeFiles/mjpc.dir/uitools.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mjpc.dir/uitools.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/uitools.cc -o CMakeFiles/mjpc.dir/uitools.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/uitools.cc -o CMakeFiles/mjpc.dir/uitools.cc.s
 
 # Object files for target mjpc
 mjpc_OBJECTS = \
@@ -146,7 +146,7 @@ bin/mjpc: lib/libabsl_strings.a
 bin/mjpc: lib/libglfw3.a
 bin/mjpc: lib/libmjpc.a
 bin/mjpc: lib/liblodepng.a
-bin/mjpc: lib/libmujoco.so.2.3.1
+bin/mjpc: lib/libmujoco.so.2.3.2
 bin/mjpc: lib/libthreadpool.a
 bin/mjpc: lib/libabsl_flags_usage.a
 bin/mjpc: lib/libabsl_flags_usage_internal.a
@@ -165,6 +165,10 @@ bin/mjpc: lib/libabsl_cordz_info.a
 bin/mjpc: lib/libabsl_cord_internal.a
 bin/mjpc: lib/libabsl_cordz_functions.a
 bin/mjpc: lib/libabsl_cordz_handle.a
+bin/mjpc: lib/libabsl_crc_cord_state.a
+bin/mjpc: lib/libabsl_crc32c.a
+bin/mjpc: lib/libabsl_crc_internal.a
+bin/mjpc: lib/libabsl_crc_cpu_detect.a
 bin/mjpc: lib/libabsl_hash.a
 bin/mjpc: lib/libabsl_city.a
 bin/mjpc: lib/libabsl_bad_variant_access.a
@@ -217,6 +221,6 @@ CMakeFiles/mjpc.dir/clean:
 .PHONY : CMakeFiles/mjpc.dir/clean
 
 CMakeFiles/mjpc.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles/mjpc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles/mjpc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mjpc.dir/depend
 

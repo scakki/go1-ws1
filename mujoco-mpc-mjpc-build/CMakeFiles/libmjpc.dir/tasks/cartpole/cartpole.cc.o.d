@@ -1,7 +1,7 @@
 CMakeFiles/libmjpc.dir/tasks/cartpole/cartpole.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/tasks/cartpole/cartpole.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/cartpole/cartpole.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/tasks/cartpole/cartpole.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/cartpole/cartpole.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mujoco.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjexport.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \

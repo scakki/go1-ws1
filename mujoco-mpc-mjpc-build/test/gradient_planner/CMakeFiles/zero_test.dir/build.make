@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -70,18 +70,18 @@ include test/gradient_planner/CMakeFiles/zero_test.dir/progress.make
 include test/gradient_planner/CMakeFiles/zero_test.dir/flags.make
 
 test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o: test/gradient_planner/CMakeFiles/zero_test.dir/flags.make
-test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/zero_test.cc
+test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/zero_test.cc
 test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o: test/gradient_planner/CMakeFiles/zero_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o -MF CMakeFiles/zero_test.dir/zero_test.cc.o.d -o CMakeFiles/zero_test.dir/zero_test.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/zero_test.cc
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.o -MF CMakeFiles/zero_test.dir/zero_test.cc.o.d -o CMakeFiles/zero_test.dir/zero_test.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/zero_test.cc
 
 test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zero_test.dir/zero_test.cc.i"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/zero_test.cc > CMakeFiles/zero_test.dir/zero_test.cc.i
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/zero_test.cc > CMakeFiles/zero_test.dir/zero_test.cc.i
 
 test/gradient_planner/CMakeFiles/zero_test.dir/zero_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zero_test.dir/zero_test.cc.s"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/zero_test.cc -o CMakeFiles/zero_test.dir/zero_test.cc.s
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/zero_test.cc -o CMakeFiles/zero_test.dir/zero_test.cc.s
 
 # Object files for target zero_test
 zero_test_OBJECTS = \
@@ -116,7 +116,7 @@ bin/zero_test: lib/libabsl_base.a
 bin/zero_test: lib/libabsl_raw_logging_internal.a
 bin/zero_test: lib/libabsl_log_severity.a
 bin/zero_test: lib/libabsl_spinlock_wait.a
-bin/zero_test: lib/libmujoco.so.2.3.1
+bin/zero_test: lib/libmujoco.so.2.3.2
 bin/zero_test: lib/libgtest.a
 bin/zero_test: test/gradient_planner/CMakeFiles/zero_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/zero_test"
@@ -131,6 +131,6 @@ test/gradient_planner/CMakeFiles/zero_test.dir/clean:
 .PHONY : test/gradient_planner/CMakeFiles/zero_test.dir/clean
 
 test/gradient_planner/CMakeFiles/zero_test.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner/CMakeFiles/zero_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner/CMakeFiles/zero_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/gradient_planner/CMakeFiles/zero_test.dir/depend
 

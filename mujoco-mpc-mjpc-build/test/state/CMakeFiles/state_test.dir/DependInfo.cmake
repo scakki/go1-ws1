@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/state/state_test.cc" "test/state/CMakeFiles/state_test.dir/state_test.cc.o" "gcc" "test/state/CMakeFiles/state_test.dir/state_test.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/state/state_test.cc" "test/state/CMakeFiles/state_test.dir/state_test.cc.o" "gcc" "test/state/CMakeFiles/state_test.dir/state_test.cc.o.d"
   )
 
 # Targets to which this target links.

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/glfw_dispatch.cc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o" "gcc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o.d"
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/main.cc" "CMakeFiles/mjpc.dir/main.cc.o" "gcc" "CMakeFiles/mjpc.dir/main.cc.o.d"
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.cc" "CMakeFiles/mjpc.dir/simulate.cc.o" "gcc" "CMakeFiles/mjpc.dir/simulate.cc.o.d"
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/uitools.cc" "CMakeFiles/mjpc.dir/uitools.cc.o" "gcc" "CMakeFiles/mjpc.dir/uitools.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/glfw_dispatch.cc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o" "gcc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/main.cc" "CMakeFiles/mjpc.dir/main.cc.o" "gcc" "CMakeFiles/mjpc.dir/main.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.cc" "CMakeFiles/mjpc.dir/simulate.cc.o" "gcc" "CMakeFiles/mjpc.dir/simulate.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/uitools.cc" "CMakeFiles/mjpc.dir/uitools.cc.o" "gcc" "CMakeFiles/mjpc.dir/uitools.cc.o.d"
   )
 
 # Targets to which this target links.
@@ -40,6 +40,10 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/DependInfo.cmake"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/DependInfo.cmake"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/DependInfo.cmake"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/DependInfo.cmake"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/DependInfo.cmake"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/DependInfo.cmake"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/DependInfo.cmake"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/DependInfo.cmake"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/DependInfo.cmake"
   "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/types/CMakeFiles/absl_bad_variant_access.dir/DependInfo.cmake"

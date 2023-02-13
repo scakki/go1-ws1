@@ -1,7 +1,7 @@
 CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/tasks/swimmer/swimmer.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/tasks/swimmer/swimmer.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks/swimmer/swimmer.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mujoco.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjexport.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
@@ -234,7 +234,6 @@ CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstddef \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/options.h \
- /usr/include/c++/11/ciso646 \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/policy_checks.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/bernoulli_distribution.h \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
@@ -336,5 +335,5 @@ CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/internal/randen_traits.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/seed_sequences.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/seed_gen_exception.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/utilities.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/utilities.h \
  /usr/include/c++/11/atomic

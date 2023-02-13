@@ -1,7 +1,7 @@
 CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/sampling/policy.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/policy.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/sampling/policy.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/sampling/policy.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -223,7 +223,6 @@ CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstddef \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/options.h \
- /usr/include/c++/11/ciso646 \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/policy_checks.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/random/bernoulli_distribution.h \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
@@ -336,10 +335,10 @@ CMakeFiles/libmjpc.dir/planners/sampling/policy.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjvisualize.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjrender.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjui.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/planners/policy.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/norm.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/trajectory.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/utilities.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/planners/policy.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/norm.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/trajectory.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/utilities.h \
  /usr/include/c++/11/atomic

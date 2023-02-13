@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -124,7 +124,7 @@ lib/libelasticity.so: _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity
 lib/libelasticity.so: _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/elasticity.cc.o
 lib/libelasticity.so: _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/solid.cc.o
 lib/libelasticity.so: _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/build.make
-lib/libelasticity.so: lib/libmujoco.so.2.3.1
+lib/libelasticity.so: lib/libmujoco.so.2.3.2
 lib/libelasticity.so: _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../../../lib/libelasticity.so"
 	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-build/plugin/elasticity && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/elasticity.dir/link.txt --verbose=$(VERBOSE)
@@ -138,6 +138,6 @@ _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/clean:
 .PHONY : _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/clean
 
 _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/plugin/elasticity /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-build/plugin/elasticity /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/plugin/elasticity /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-build/plugin/elasticity /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : _deps/mujoco-build/plugin/elasticity/CMakeFiles/elasticity.dir/depend
 

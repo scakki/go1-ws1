@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
+# Source directory: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
 # Build directory: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
 # 
 # This file includes the relevant testing commands required for 

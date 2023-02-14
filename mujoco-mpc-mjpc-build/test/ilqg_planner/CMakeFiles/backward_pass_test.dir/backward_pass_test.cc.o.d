@@ -1,7 +1,7 @@
 test/ilqg_planner/CMakeFiles/backward_pass_test.dir/backward_pass_test.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/ilqg_planner/backward_pass_test.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/ilqg_planner/backward_pass_test.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/ilqg/backward_pass.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/ilqg/backward_pass.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -90,9 +90,9 @@ test/ilqg_planner/CMakeFiles/backward_pass_test.dir/backward_pass_test.cc.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/cost_derivatives.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../norm.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../threadpool.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/cost_derivatives.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../norm.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../threadpool.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -229,7 +229,7 @@ test/ilqg_planner/CMakeFiles/backward_pass_test.dir/backward_pass_test.cc.o: \
  /usr/include/c++/11/cstddef \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/options.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base/policy_checks.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/ilqg/boxqp.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/ilqg/boxqp.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mujoco.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjexport.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/math.h \
@@ -262,15 +262,15 @@ test/ilqg_planner/CMakeFiles/backward_pass_test.dir/backward_pass_test.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjvisualize.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjrender.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjui.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/ilqg/policy.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/policy.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../norm.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../trajectory.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../task.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/ilqg/settings.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/model_derivatives.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../utilities.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/ilqg/policy.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/policy.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../norm.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../trajectory.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/ilqg/settings.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/model_derivatives.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../utilities.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
@@ -361,4 +361,4 @@ test/ilqg_planner/CMakeFiles/backward_pass_test.dir/backward_pass_test.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../test/lqr.h
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../test/lqr.h

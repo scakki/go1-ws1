@@ -54,7 +54,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -1215,7 +1215,7 @@ CMakeFiles/libmjpc.dir/all: _deps/abseil-cpp-build/absl/types/CMakeFiles/absl_ba
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libmjpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libmjpc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : CMakeFiles/libmjpc.dir/rule
@@ -3077,7 +3077,7 @@ _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule
@@ -3123,7 +3123,7 @@ _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/all: _dep
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule
@@ -3389,12 +3389,12 @@ _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all: _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build.make _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=11 "Built target absl_failure_signal_handler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target absl_failure_signal_handler"
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_failure_signal_handler.dir/rule
@@ -3760,7 +3760,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/all: _dep
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_reflection.dir/rule
@@ -3879,7 +3879,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags.dir/all: _deps/abseil-cp
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags.dir/rule
@@ -3949,7 +3949,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/all: 
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage_internal.dir/rule
@@ -4020,7 +4020,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/all: _deps/abs
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_usage.dir/rule
@@ -4092,7 +4092,7 @@ _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/all: _deps/abs
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/flags/CMakeFiles/absl_flags_parse.dir/rule
@@ -4248,7 +4248,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/all: _
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_check_op.dir/rule
@@ -4272,12 +4272,12 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/all:
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/all: _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target absl_log_internal_conditions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=20 "Built target absl_log_internal_conditions"
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_conditions.dir/rule
@@ -4310,12 +4310,12 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/all: _de
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/all: _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/build.make _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=20 "Built target absl_log_internal_format"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target absl_log_internal_format"
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_format.dir/rule
@@ -4443,7 +4443,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/all: _d
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_internal_message.dir/rule
@@ -4653,7 +4653,7 @@ _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/all: _deps/abseil-
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/log/CMakeFiles/absl_log_flags.dir/rule
@@ -4854,12 +4854,12 @@ _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/clean:
 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target absl_exponential_biased"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=11 "Built target absl_exponential_biased"
 .PHONY : _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule
@@ -4880,12 +4880,12 @@ _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/cle
 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/all: _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target absl_periodic_sampler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=24 "Built target absl_periodic_sampler"
 .PHONY : _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule
@@ -4913,12 +4913,12 @@ _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all:
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all: _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/build.make _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=24 "Built target absl_random_distributions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target absl_random_distributions"
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/random/CMakeFiles/absl_random_distributions.dir/rule
@@ -5285,7 +5285,7 @@ _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/all: _deps/abseil-
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_status.dir/rule
@@ -5343,7 +5343,7 @@ _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/all: _deps/absei
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/status/CMakeFiles/absl_statusor.dir/rule
@@ -5502,7 +5502,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/all: _de
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/rule
@@ -5596,7 +5596,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/all: _deps/ab
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/rule
@@ -5648,7 +5648,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all: 
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_sample_token.dir/rule
@@ -5701,7 +5701,7 @@ _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/all: _deps/abseil-c
 
 # Build rule for subdir invocation for target.
 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/rule
@@ -6156,7 +6156,7 @@ test/sampling_planner/CMakeFiles/sampling_planner_test.dir/all: test/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 test/sampling_planner/CMakeFiles/sampling_planner_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/sampling_planner/CMakeFiles/sampling_planner_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/sampling_planner/CMakeFiles/sampling_planner_test.dir/rule
@@ -6207,7 +6207,7 @@ test/gradient_planner/CMakeFiles/gradient_planner_test.dir/all: test/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 test/gradient_planner/CMakeFiles/gradient_planner_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/gradient_planner/CMakeFiles/gradient_planner_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/gradient_planner/CMakeFiles/gradient_planner_test.dir/rule
@@ -6259,7 +6259,7 @@ test/gradient_planner/CMakeFiles/gradient_test.dir/all: test/CMakeFiles/lqr.dir/
 
 # Build rule for subdir invocation for target.
 test/gradient_planner/CMakeFiles/gradient_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/gradient_planner/CMakeFiles/gradient_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/gradient_planner/CMakeFiles/gradient_test.dir/rule
@@ -6310,7 +6310,7 @@ test/gradient_planner/CMakeFiles/zero_test.dir/all: test/CMakeFiles/finite_diffe
 
 # Build rule for subdir invocation for target.
 test/gradient_planner/CMakeFiles/zero_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/gradient_planner/CMakeFiles/zero_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/gradient_planner/CMakeFiles/zero_test.dir/rule
@@ -6361,7 +6361,7 @@ test/gradient_planner/CMakeFiles/linear_test.dir/all: test/CMakeFiles/finite_dif
 
 # Build rule for subdir invocation for target.
 test/gradient_planner/CMakeFiles/linear_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/gradient_planner/CMakeFiles/linear_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/gradient_planner/CMakeFiles/linear_test.dir/rule
@@ -6407,12 +6407,12 @@ test/gradient_planner/CMakeFiles/cubic_test.dir/all: _deps/abseil-cpp-build/absl
 test/gradient_planner/CMakeFiles/cubic_test.dir/all: test/CMakeFiles/finite_difference.dir/all
 	$(MAKE) $(MAKESILENT) -f test/gradient_planner/CMakeFiles/cubic_test.dir/build.make test/gradient_planner/CMakeFiles/cubic_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/gradient_planner/CMakeFiles/cubic_test.dir/build.make test/gradient_planner/CMakeFiles/cubic_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=44 "Built target cubic_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target cubic_test"
 .PHONY : test/gradient_planner/CMakeFiles/cubic_test.dir/all
 
 # Build rule for subdir invocation for target.
 test/gradient_planner/CMakeFiles/cubic_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/gradient_planner/CMakeFiles/cubic_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/gradient_planner/CMakeFiles/cubic_test.dir/rule
@@ -6463,7 +6463,7 @@ test/ilqg_planner/CMakeFiles/ilqg_test.dir/all: test/CMakeFiles/load.dir/all
 
 # Build rule for subdir invocation for target.
 test/ilqg_planner/CMakeFiles/ilqg_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ilqg_planner/CMakeFiles/ilqg_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/ilqg_planner/CMakeFiles/ilqg_test.dir/rule
@@ -6509,12 +6509,12 @@ test/ilqg_planner/CMakeFiles/backward_pass_test.dir/all: _deps/abseil-cpp-build/
 test/ilqg_planner/CMakeFiles/backward_pass_test.dir/all: test/CMakeFiles/lqr.dir/all
 	$(MAKE) $(MAKESILENT) -f test/ilqg_planner/CMakeFiles/backward_pass_test.dir/build.make test/ilqg_planner/CMakeFiles/backward_pass_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/ilqg_planner/CMakeFiles/backward_pass_test.dir/build.make test/ilqg_planner/CMakeFiles/backward_pass_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=42 "Built target backward_pass_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target backward_pass_test"
 .PHONY : test/ilqg_planner/CMakeFiles/backward_pass_test.dir/all
 
 # Build rule for subdir invocation for target.
 test/ilqg_planner/CMakeFiles/backward_pass_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ilqg_planner/CMakeFiles/backward_pass_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/ilqg_planner/CMakeFiles/backward_pass_test.dir/rule
@@ -6565,7 +6565,7 @@ test/tasks/CMakeFiles/task_test.dir/all: test/CMakeFiles/load.dir/all
 
 # Build rule for subdir invocation for target.
 test/tasks/CMakeFiles/task_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/tasks/CMakeFiles/task_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/tasks/CMakeFiles/task_test.dir/rule
@@ -6616,7 +6616,7 @@ test/state/CMakeFiles/state_test.dir/all: test/CMakeFiles/load.dir/all
 
 # Build rule for subdir invocation for target.
 test/state/CMakeFiles/state_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/state/CMakeFiles/state_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/state/CMakeFiles/state_test.dir/rule
@@ -6662,7 +6662,7 @@ test/agent/CMakeFiles/agent_test.dir/all: _deps/abseil-cpp-build/absl/types/CMak
 test/agent/CMakeFiles/agent_test.dir/all: test/CMakeFiles/load.dir/all
 	$(MAKE) $(MAKESILENT) -f test/agent/CMakeFiles/agent_test.dir/build.make test/agent/CMakeFiles/agent_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/agent/CMakeFiles/agent_test.dir/build.make test/agent/CMakeFiles/agent_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target agent_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=42 "Built target agent_test"
 .PHONY : test/agent/CMakeFiles/agent_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6713,7 +6713,7 @@ test/agent/CMakeFiles/cost_derivatives_test.dir/all: _deps/abseil-cpp-build/absl
 test/agent/CMakeFiles/cost_derivatives_test.dir/all: test/CMakeFiles/finite_difference.dir/all
 	$(MAKE) $(MAKESILENT) -f test/agent/CMakeFiles/cost_derivatives_test.dir/build.make test/agent/CMakeFiles/cost_derivatives_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/agent/CMakeFiles/cost_derivatives_test.dir/build.make test/agent/CMakeFiles/cost_derivatives_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num= "Built target cost_derivatives_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=44 "Built target cost_derivatives_test"
 .PHONY : test/agent/CMakeFiles/cost_derivatives_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6769,7 +6769,7 @@ test/agent/CMakeFiles/norm_test.dir/all: test/CMakeFiles/finite_difference.dir/a
 
 # Build rule for subdir invocation for target.
 test/agent/CMakeFiles/norm_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/agent/CMakeFiles/norm_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/agent/CMakeFiles/norm_test.dir/rule
@@ -6820,7 +6820,7 @@ test/agent/CMakeFiles/rollout_test.dir/all: test/CMakeFiles/load.dir/all
 
 # Build rule for subdir invocation for target.
 test/agent/CMakeFiles/rollout_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/agent/CMakeFiles/rollout_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/agent/CMakeFiles/rollout_test.dir/rule
@@ -6870,7 +6870,7 @@ test/agent/CMakeFiles/threadpool_test.dir/all: _deps/abseil-cpp-build/absl/types
 
 # Build rule for subdir invocation for target.
 test/agent/CMakeFiles/threadpool_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/agent/CMakeFiles/threadpool_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/agent/CMakeFiles/threadpool_test.dir/rule
@@ -6920,7 +6920,7 @@ test/agent/CMakeFiles/trajectory_test.dir/all: _deps/abseil-cpp-build/absl/types
 
 # Build rule for subdir invocation for target.
 test/agent/CMakeFiles/trajectory_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/agent/CMakeFiles/trajectory_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/agent/CMakeFiles/trajectory_test.dir/rule
@@ -6971,7 +6971,7 @@ test/agent/CMakeFiles/utilities_test.dir/all: test/CMakeFiles/load.dir/all
 
 # Build rule for subdir invocation for target.
 test/agent/CMakeFiles/utilities_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/agent/CMakeFiles/utilities_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles 0
 .PHONY : test/agent/CMakeFiles/utilities_test.dir/rule

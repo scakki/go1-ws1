@@ -1,5 +1,5 @@
 test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent/cost_derivatives_test.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent/cost_derivatives_test.cc \
  /usr/include/stdc-predef.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
@@ -308,4 +308,4 @@ test/agent/CMakeFiles/cost_derivatives_test.dir/cost_derivatives_test.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../test/finite_difference.h
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../test/finite_difference.h

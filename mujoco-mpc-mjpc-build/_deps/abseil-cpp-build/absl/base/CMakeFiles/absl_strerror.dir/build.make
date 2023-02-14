@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -106,6 +106,6 @@ _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_strerror.dir/clean:
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_strerror.dir/clean
 
 _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_strerror.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/base /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/base/CMakeFiles/absl_strerror.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/base /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/base /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-build/absl/base/CMakeFiles/absl_strerror.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_strerror.dir/depend
 

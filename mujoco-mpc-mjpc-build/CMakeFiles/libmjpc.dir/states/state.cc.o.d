@@ -1,7 +1,7 @@
 CMakeFiles/libmjpc.dir/states/state.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/states/state.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/states/state.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/states/state.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/states/state.h \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -213,7 +213,7 @@ CMakeFiles/libmjpc.dir/states/state.cc.o: \
  /usr/include/c++/11/bits/erase_if.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/mutex \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/utilities.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/utilities.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/bits/atomic_wait.h /usr/include/c++/11/climits \

@@ -1,7 +1,7 @@
 test/agent/CMakeFiles/threadpool_test.dir/threadpool_test.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/agent/threadpool_test.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/agent/threadpool_test.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../threadpool.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../threadpool.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

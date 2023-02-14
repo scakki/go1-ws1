@@ -1,7 +1,7 @@
 test/tasks/CMakeFiles/task_test.dir/task_test.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/tasks/task_test.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/tasks/task_test.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../task.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../task.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -126,7 +126,7 @@ test/tasks/CMakeFiles/task_test.dir/task_test.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjvisualize.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjrender.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjui.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../norm.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../norm.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstdint \
  /usr/include/c++/11/iomanip /usr/include/c++/11/iosfwd \
@@ -342,4 +342,4 @@ test/tasks/CMakeFiles/task_test.dir/task_test.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../test/load.h
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../test/load.h

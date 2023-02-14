@@ -1,7 +1,7 @@
 test/CMakeFiles/load.dir/load.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/load.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/load.cc \
  /usr/include/stdc-predef.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../test/load.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../test/load.h \
  /usr/include/c++/11/string_view /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -285,5 +285,5 @@ test/CMakeFiles/load.dir/load.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/numeric/internal/bits.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/numeric/int128.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src/absl/numeric/int128_have_intrinsic.inc \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../array_safety.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../array_safety.h \
  /usr/include/c++/11/cstdarg

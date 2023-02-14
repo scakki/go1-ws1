@@ -1,5 +1,5 @@
 test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o: \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/cubic_test.cc \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/cubic_test.cc \
  /usr/include/stdc-predef.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/googletest-src/googletest/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
@@ -339,5 +339,5 @@ test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o: \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjvisualize.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjrender.h \
  /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include/mujoco/mjui.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../planners/gradient/spline_mapping.h \
- /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/../utilities.h
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../planners/gradient/spline_mapping.h \
+ /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/../utilities.h

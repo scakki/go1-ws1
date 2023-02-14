@@ -47,8 +47,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/libmjpc.dir/tasks/particle/particle.cc.o.d"
   "CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o"
   "CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.o.d"
-  "CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o"
-  "CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o.d"
   "CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o"
   "CMakeFiles/libmjpc.dir/tasks/quadruped/quadruped.cc.o.d"
   "CMakeFiles/libmjpc.dir/tasks/swimmer/swimmer.cc.o"

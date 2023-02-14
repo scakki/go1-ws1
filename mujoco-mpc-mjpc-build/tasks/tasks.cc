@@ -21,7 +21,6 @@
 #include "tasks/particle/particle.h"
 #include "tasks/quadrotor/quadrotor.h"
 #include "tasks/quadruped/quadruped.h"
-#include "tasks/quadruped-go1/quadruped-go1.h"
 #include "tasks/swimmer/swimmer.h"
 #include "tasks/walker/walker.h"
 
@@ -78,17 +77,6 @@ const TaskDefinition kTasksArray[]{
         .name = "Quadruped Flat",
         .xml_path = "quadruped/task_flat.xml",
         .residual = &Quadruped::ResidualFloor,
-    },
-    {
-        .name = "Quadruped_Go1",
-        .xml_path = "quadruped-go1/task_flat1.xml",
-        .residual = &QuadrupedGo1::ResidualFloor,
-    },
-    {
-        .name = "Go1_Hill",
-        .xml_path = "quadruped-go1/task_hill1.xml",
-        .residual = &QuadrupedGo1::Residual,
-        .transition = &QuadrupedGo1::Transition,
     },
     {
         .name = "Hand",

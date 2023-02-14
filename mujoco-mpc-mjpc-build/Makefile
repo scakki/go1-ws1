@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -2991,30 +2991,6 @@ tasks/quadrotor/quadrotor.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libmjpc.dir/build.make CMakeFiles/libmjpc.dir/tasks/quadrotor/quadrotor.cc.s
 .PHONY : tasks/quadrotor/quadrotor.cc.s
 
-tasks/quadruped-go1/quadruped-go1.o: tasks/quadruped-go1/quadruped-go1.cc.o
-.PHONY : tasks/quadruped-go1/quadruped-go1.o
-
-# target to build an object file
-tasks/quadruped-go1/quadruped-go1.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libmjpc.dir/build.make CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.o
-.PHONY : tasks/quadruped-go1/quadruped-go1.cc.o
-
-tasks/quadruped-go1/quadruped-go1.i: tasks/quadruped-go1/quadruped-go1.cc.i
-.PHONY : tasks/quadruped-go1/quadruped-go1.i
-
-# target to preprocess a source file
-tasks/quadruped-go1/quadruped-go1.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libmjpc.dir/build.make CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.i
-.PHONY : tasks/quadruped-go1/quadruped-go1.cc.i
-
-tasks/quadruped-go1/quadruped-go1.s: tasks/quadruped-go1/quadruped-go1.cc.s
-.PHONY : tasks/quadruped-go1/quadruped-go1.s
-
-# target to generate assembly for a file
-tasks/quadruped-go1/quadruped-go1.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libmjpc.dir/build.make CMakeFiles/libmjpc.dir/tasks/quadruped-go1/quadruped-go1.cc.s
-.PHONY : tasks/quadruped-go1/quadruped-go1.cc.s
-
 tasks/quadruped/quadruped.o: tasks/quadruped/quadruped.cc.o
 .PHONY : tasks/quadruped/quadruped.o
 
@@ -3468,9 +3444,6 @@ help:
 	@echo "... tasks/quadrotor/quadrotor.o"
 	@echo "... tasks/quadrotor/quadrotor.i"
 	@echo "... tasks/quadrotor/quadrotor.s"
-	@echo "... tasks/quadruped-go1/quadruped-go1.o"
-	@echo "... tasks/quadruped-go1/quadruped-go1.i"
-	@echo "... tasks/quadruped-go1/quadruped-go1.s"
 	@echo "... tasks/quadruped/quadruped.o"
 	@echo "... tasks/quadruped/quadruped.i"
 	@echo "... tasks/quadruped/quadruped.s"

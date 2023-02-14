@@ -145,18 +145,18 @@
     </worldbody>
     <actuator>       
         
-        <motor name="FR_hip"    gear="1"    joint="FR_hip_joint"/>
-        <motor name="FR_thigh"  gear="1"    joint="FR_thigh_joint"/>
-        <motor name="FR_calf"   gear="1"    joint="FR_calf_joint"/>
-        <motor name="FL_hip"    gear="1"    joint="FL_hip_joint"/>
-        <motor name="FL_thigh"  gear="1"    joint="FL_thigh_joint"/>
-        <motor name="FL_calf"   gear="1"    joint="FL_calf_joint"/>
-        <motor name="RR_hip"    gear="1"    joint="RR_hip_joint"/>
-        <motor name="RR_thigh"  gear="1"    joint="RR_thigh_joint"/>
-        <motor name="RR_calf"   gear="1"    joint="RR_calf_joint" />
-        <motor name="RL_hip"    gear="1"    joint="RL_hip_joint"/>
-        <motor name="RL_thigh"  gear="1"    joint="RL_thigh_joint"/>
-        <motor name="RL_calf"   gear="1"    joint="RL_calf_joint"/>
+        <position name="FR_hip"        joint="FR_hip_joint"/>
+        <position name="FR_thigh"      joint="FR_thigh_joint"/>
+        <position name="FR_calf"       joint="FR_calf_joint"/>
+        <position name="FL_hip"        joint="FL_hip_joint"/>
+        <position name="FL_thigh"      joint="FL_thigh_joint"/>
+        <position name="FL_calf"       joint="FL_calf_joint"/>
+        <position name="RR_hip"        joint="RR_hip_joint"/>
+        <position name="RR_thigh"      joint="RR_thigh_joint"/>
+        <position name="RR_calf"       joint="RR_calf_joint" />
+        <position name="RL_hip"        joint="RL_hip_joint"/>
+        <position name="RL_thigh"      joint="RL_thigh_joint"/>
+        <position name="RL_calf"       joint="RL_calf_joint"/>
     </actuator>
 
     <!sensor>

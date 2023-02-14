@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -68,7 +68,7 @@ include tasks/CMakeFiles/copy_resources.dir/progress.make
 
 tasks/CMakeFiles/copy_resources:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying tasks into binary directory"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks && /usr/bin/cmake -E copy_directory /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks && /usr/bin/cmake -E copy_directory /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/tasks /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks
 
 copy_resources: tasks/CMakeFiles/copy_resources
 copy_resources: tasks/CMakeFiles/copy_resources.dir/build.make
@@ -83,6 +83,6 @@ tasks/CMakeFiles/copy_resources.dir/clean:
 .PHONY : tasks/CMakeFiles/copy_resources.dir/clean
 
 tasks/CMakeFiles/copy_resources.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/tasks /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks/CMakeFiles/copy_resources.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/tasks /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/tasks/CMakeFiles/copy_resources.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tasks/CMakeFiles/copy_resources.dir/depend
 

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/glfw_dispatch.cc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o" "gcc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o.d"
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/main.cc" "CMakeFiles/mjpc.dir/main.cc.o" "gcc" "CMakeFiles/mjpc.dir/main.cc.o.d"
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/simulate.cc" "CMakeFiles/mjpc.dir/simulate.cc.o" "gcc" "CMakeFiles/mjpc.dir/simulate.cc.o.d"
-  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/uitools.cc" "CMakeFiles/mjpc.dir/uitools.cc.o" "gcc" "CMakeFiles/mjpc.dir/uitools.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/glfw_dispatch.cc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o" "gcc" "CMakeFiles/mjpc.dir/glfw_dispatch.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/main.cc" "CMakeFiles/mjpc.dir/main.cc.o" "gcc" "CMakeFiles/mjpc.dir/main.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/simulate.cc" "CMakeFiles/mjpc.dir/simulate.cc.o" "gcc" "CMakeFiles/mjpc.dir/simulate.cc.o.d"
+  "/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/uitools.cc" "CMakeFiles/mjpc.dir/uitools.cc.o" "gcc" "CMakeFiles/mjpc.dir/uitools.cc.o.d"
   )
 
 # Targets to which this target links.

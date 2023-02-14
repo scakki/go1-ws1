@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -70,18 +70,18 @@ include test/CMakeFiles/load.dir/progress.make
 include test/CMakeFiles/load.dir/flags.make
 
 test/CMakeFiles/load.dir/load.cc.o: test/CMakeFiles/load.dir/flags.make
-test/CMakeFiles/load.dir/load.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/load.cc
+test/CMakeFiles/load.dir/load.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/load.cc
 test/CMakeFiles/load.dir/load.cc.o: test/CMakeFiles/load.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/load.dir/load.cc.o"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/load.dir/load.cc.o -MF CMakeFiles/load.dir/load.cc.o.d -o CMakeFiles/load.dir/load.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/load.cc
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/load.dir/load.cc.o -MF CMakeFiles/load.dir/load.cc.o.d -o CMakeFiles/load.dir/load.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/load.cc
 
 test/CMakeFiles/load.dir/load.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/load.dir/load.cc.i"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/load.cc > CMakeFiles/load.dir/load.cc.i
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/load.cc > CMakeFiles/load.dir/load.cc.i
 
 test/CMakeFiles/load.dir/load.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/load.dir/load.cc.s"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/load.cc -o CMakeFiles/load.dir/load.cc.s
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/load.cc -o CMakeFiles/load.dir/load.cc.s
 
 # Object files for target load
 load_OBJECTS = \
@@ -106,6 +106,6 @@ test/CMakeFiles/load.dir/clean:
 .PHONY : test/CMakeFiles/load.dir/clean
 
 test/CMakeFiles/load.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/CMakeFiles/load.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/CMakeFiles/load.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/load.dir/depend
 

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc
+CMAKE_SOURCE_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build
@@ -70,18 +70,18 @@ include test/gradient_planner/CMakeFiles/cubic_test.dir/progress.make
 include test/gradient_planner/CMakeFiles/cubic_test.dir/flags.make
 
 test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o: test/gradient_planner/CMakeFiles/cubic_test.dir/flags.make
-test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/cubic_test.cc
+test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o: /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/cubic_test.cc
 test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o: test/gradient_planner/CMakeFiles/cubic_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o -MF CMakeFiles/cubic_test.dir/cubic_test.cc.o.d -o CMakeFiles/cubic_test.dir/cubic_test.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/cubic_test.cc
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.o -MF CMakeFiles/cubic_test.dir/cubic_test.cc.o.d -o CMakeFiles/cubic_test.dir/cubic_test.cc.o -c /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/cubic_test.cc
 
 test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cubic_test.dir/cubic_test.cc.i"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/cubic_test.cc > CMakeFiles/cubic_test.dir/cubic_test.cc.i
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/cubic_test.cc > CMakeFiles/cubic_test.dir/cubic_test.cc.i
 
 test/gradient_planner/CMakeFiles/cubic_test.dir/cubic_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cubic_test.dir/cubic_test.cc.s"
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner/cubic_test.cc -o CMakeFiles/cubic_test.dir/cubic_test.cc.s
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner/cubic_test.cc -o CMakeFiles/cubic_test.dir/cubic_test.cc.s
 
 # Object files for target cubic_test
 cubic_test_OBJECTS = \
@@ -131,6 +131,6 @@ test/gradient_planner/CMakeFiles/cubic_test.dir/clean:
 .PHONY : test/gradient_planner/CMakeFiles/cubic_test.dir/clean
 
 test/gradient_planner/CMakeFiles/cubic_test.dir/depend:
-	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner/CMakeFiles/cubic_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner /home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/test/gradient_planner/CMakeFiles/cubic_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/gradient_planner/CMakeFiles/cubic_test.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DMJSTATIC -DmjUSEPLATFORMSIMD
 
-CXX_INCLUDES = -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/.. -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc-go1/mjpc/test/gmock -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src
+CXX_INCLUDES = -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/.. -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/mujoco-src/include -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco_mpc/mjpc/test/gmock -I/home/leggedrobot/Documents/GitHub/go1-ws1/mujoco-mpc-mjpc-build/_deps/abseil-cpp-src
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -std=c++20
 

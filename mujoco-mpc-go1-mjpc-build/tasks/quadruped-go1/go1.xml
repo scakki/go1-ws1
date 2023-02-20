@@ -66,7 +66,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0 0 0 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
-                        <site name="FR" pos="0 0 -0.2" type="sphere" size=".03"/>
+                        <site name="FR" pos="0 0 -0.2" type="sphere" size=".015"/>
                     </body>
                 </body>
             </body>
@@ -89,7 +89,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0.913725 0.913725 0.847059 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
-                        <site name="FL" pos="0 0 -0.2" type="sphere" size=".03"/>
+                        <site name="FL" pos="0 0 -0.2" type="sphere" size=".015"/>
                     </body>
                 </body>
             </body>
@@ -113,7 +113,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0 0 0 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
-                        <site name="RR" pos="0 0 -0.2" type="sphere" size=".03"/>
+                        <site name="RR" pos="0 0 -0.2" type="sphere" size=".015"/>
                     </body>
                 </body>
             </body>
@@ -137,7 +137,7 @@
                         <geom size="0.1065 0.008 0.008" pos="0 0 -0.1065" quat="0.707107 0 0.707107 0" type="box" rgba="0 0 0 0" />
                         <geom size="0.01" pos="0 0 -0.213" contype="0" conaffinity="0" group="1" rgba="0 0 0 1" />
                         <geom size="0.02" pos="0 0 -0.213" rgba="0 0 0 1" />
-                        <site name="RL" pos="0 0 -0.2" type="sphere" size=".03"/>
+                        <site name="RL" pos="0 0 -0.2" type="sphere" size=".015"/>
                     </body>
                 </body>
             </body>
